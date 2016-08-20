@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="wrap">
+  <div class="container home-apoint">
+    <div class="row">
+      <div class="span12 home-apoint-text">
+        <h2>Contact</h2>
+      </div>
+    </div><!--end row-->
+  </div><!--end container-->
+</div><!--end wrap-->
+
+<div class="wrap margin-block">
+  <div class="container">
+    <div class="row">
+      <div class="span12 g-map">
+        <iframe height="400" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=ro&amp;geocode=&amp;q=New+York,+NY,+United+States&amp;aq=3&amp;oq=New+York+&amp;sll=40.765982,-73.974037&amp;sspn=0.104791,0.264187&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Manhattan,+New+York&amp;ll=40.714353,-74.005973&amp;spn=0.013109,0.033023&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+      </div>
+    </div><!--end row-->
+    <div class="row">
+      <div class="span9">
+        <header class="home-title">
+          <h3>Mail Us</h3>
+        </header>
+        <div id="contact-container" class="margin-t clearfix">
+          <form method="post" id="my-form" action='include/contact-process.php'>
+            <input type="text" name="author" class="comm-field"  value="Name" size="22" tabindex="1" aria-required='true' onFocus="if(this.value=='Name')this.value='';" onBlur="if(this.value=='')this.value='Name';" />
+   		      <input type="text" name="email" class="comm-field" value="Email" size="22" tabindex="2" aria-required='true' onFocus="if(this.value=='Email')this.value='';" onBlur="if(this.value=='')this.value='Email';"  />
+   		      <input type="text" name="title" class="comm-field" value="Subject" size="22" tabindex="3" aria-required='true' onFocus="if(this.value=='Subject')this.value='';" onBlur="if(this.value=='')this.value='Subject';" />
+            <textarea name="message" id="message2" rows="9" tabindex="4"></textarea>
+	          <input type="submit" value="Send message" id="submit" tabindex="5"  />
+          </form>
+        </div>
+        <div id="output"></div>
+      </div><!--end span9-->
+      <div class="span3">
+	      <header class="home-title">
+          <h3>Find Us</h3>
+        </header>
+        <div class="margin-t">
+          <p>In justo risus, fermentum eget egestas eget, elementum vitae tortor. Maecenas lorem mi, interdum id commodo ac, tincidunt vitae magna. Pellentesque quam justo, aliquam non accumsan a, aliquam id dolor.</p>
+          <div class="sidebar-archive">
+            <ul>
+              <li>Address: 501 Boulevard, New York City, New York</li>
+              <li>Phone: 1-800-123-1234</li>
+              <li>Fax: 1-800-123-1234</li>
+              <li>Email: contact@dentalclinic.com</li>
+            </ul>
+          </div>
+        </div>
+      </div><!--end span3-->
+    </div><!--end row-->
+  </div><!--end container-->
+</div><!--end wrap-->
