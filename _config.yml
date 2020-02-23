@@ -9,7 +9,7 @@
 title: Helen Joffe, DDS
 description: > # this means to ignore newlines until "baseurl:"
   Helen Joffe Dentristy in Buffalo Grove, IL website 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/helenjoffedds" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
